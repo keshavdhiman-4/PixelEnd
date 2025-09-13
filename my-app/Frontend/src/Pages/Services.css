@@ -1,0 +1,76 @@
+.services-container {
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), hsla(337, 68%, 56%, 0.3)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover; 
+}
+  
+  .services-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    margin-top: 3.5rem;
+  }
+  
+  .services-grid {
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .service-card {
+    background: linear-gradient(135deg, #353434, white);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.1s, box-shadow 0.1s;
+    margin: 50px 15px;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .service-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-title {
+    font-size: 1.5rem;
+    color: black;
+    margin: 1rem 0 0.5rem;
+    text-align: center;
+  }
+  
+  .service-description {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    padding: 0 1rem 1rem;
+  }
+  
+  @media (max-width: 800px) {
+    .service-card {
+      min-height: 460px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .services-grid {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .service-card {
+      flex: 1 1 calc(100% - 2rem); 
+      max-width: calc(100% - 2rem);
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+    }
+    .services-heading {
+        font-size: 2rem;
+        margin-bottom: 50px;
+    }
+  }

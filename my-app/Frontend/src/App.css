@@ -1,0 +1,21 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+} */
+
+body{
+  /* background-image: url('./assets/wallhaven-wegvxq.jpg'); */
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), hsla(337, 68%, 56%, 0.3)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overscroll-behavior: none;
+} 
+
+/* html, body {
+  height: 100%;
+  overflow: auto;
+} */

@@ -1,0 +1,107 @@
+/* UploadImage.css */
+
+.upload-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient(160deg, #353434, white);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .upload-image-container h1{
+    font-size: 2.5rem;
+    color: black;
+  }
+  
+  .upload-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .upload-form label {
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  .upload-form select,
+  .upload-form input[type="file"],
+  .upload-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .upload-form select:hover,
+  .upload-form input[type="file"]:hover,
+  .upload-form textarea:hover {
+    border-color: hsl(337, 68%, 56%);
+  }
+  
+  .upload-form button {
+    background-color: hsl(337, 68%, 56%);
+    color: white;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border: none;
+    max-width: 200px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-form button:hover {
+    background-color: hsl(337, 85%, 50%);
+  }
+  
+  .upload-form textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .file-input-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  
+  .error-message {
+    color: #78290F;
+    font-size: 0.9rem; 
+  }
+  
+  .success-message {
+    color: hsl(337, 68%, 56%);
+    font-size: 0.9rem;
+  }
+  
+  .form-group select{
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), hsla(337, 92%, 30%, 0.3));
+  }
+
+  select option{
+    color: black;
+  }
+
+  input, textarea{
+    max-width: 578px;
+  }

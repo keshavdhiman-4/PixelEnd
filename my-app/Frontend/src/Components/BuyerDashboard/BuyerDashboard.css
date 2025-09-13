@@ -1,0 +1,91 @@
+.dashboard-wrapper {
+    padding: 20px 40px;
+    margin-top: 140px;
+    max-width: 600px;
+    font-family: Arial, sans-serif;
+    color: black;
+    background: linear-gradient(135deg, #353434, white);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    margin-bottom: 60px;
+  }
+
+  .dashboard-wrapper h1 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .options-container {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .option-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .option-group:last-child {
+    margin-right: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  .summary {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .actions2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  button:disabled {
+    background-color: #222;
+    cursor: not-allowed;
+  }
+  
+  .actions2 button:not(:disabled) {
+    background-color: hsl(337, 68%, 56%);
+    color: white;
+  }
+  
+  .actions2 button:hover:not(:disabled) {
+    background-color: hsl(337, 68%, 56%);
+  }
+  
+  .actions2 button + .actions2 button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .actions2 button:hover + .actions2 button {
+    background-color: #0056b3;
+  }
+  

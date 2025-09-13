@@ -1,0 +1,141 @@
+.mainmenu{
+    margin-top: 100px;
+    height: 170px;
+    overflow: visible;
+}
+
+.mainmenu h1{
+    margin-top: 7px;
+    margin-left: 20px;
+    font-size: 240%; 
+}
+
+.options{
+    width: 100%; 
+}
+
+.heading{
+    display: flex;
+}
+
+.heading p{
+    font-size: 240%;
+    margin-top: 0;
+    margin-left: 20px;
+}
+
+.menubar.fixed{
+    position: fixed;
+    top: -46.8px;
+    width: 100%;
+    background-color: #181a1b;
+}
+
+.options button{
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 4px;
+    background-color: rgba(106, 99, 99, 0);
+    border: 1px solid grey;
+}
+
+.menuItem{
+    color: white;
+}
+
+.menu-item.active{
+    border: 2px solid hsl(337, 68%, 56%);
+}
+
+.options button:hover {
+    background-color: rgba(37, 35, 35, 0.4);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+
+.menubar{
+    margin-top: 120px;
+    background-color: rgba(106, 99, 99, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: absolute;
+    top: 50px;
+    z-index: 19;
+    width: 96%;
+    height: 40px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    border: 1px solid rgba(31, 29, 29, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+}
+
+#check{
+    display: none;
+}
+
+.leftbtn, .rightbtn {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 15px;
+}
+
+
+
+
+/* .menubar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 0;
+  } */
+  
+  .options {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 100%;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+  
+  .options::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari */
+  }
+  
+  /* Arrow Button Styles */
+  /* .arrow-btn {
+    background: rgba(255, 255, 255, 0.9);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    top: 0;
+    width: 50px;
+  } */
+  
+  .leftbtn {
+    left: 0;
+    background: linear-gradient(to right, rgba(32, 31, 31, 0.9), rgba(255, 255, 255, 0));
+  }
+  
+  .rightbtn {
+    right: 0;
+    background: linear-gradient(to left, rgba(32, 31, 31, 0.9), rgba(255, 255, 255, 0));
+  }
+   

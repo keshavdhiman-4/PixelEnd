@@ -1,0 +1,136 @@
+.about-us-hero {
+  /* background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover; */
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), hsla(337, 68%, 56%, 0.3)), url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.7);
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: 10px;
+  max-width: 700px;
+}
+
+.section-title{
+  font-size: 2rem;
+}
+
+.section-description{
+  font-size: 1.2rem; 
+}
+
+.mission-vision-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.mission-vision-grid h3{
+  font-size: 1.5rem;
+  color: black;
+}
+
+.mission-vision-grid p{
+  font-size: 1rem;
+  color: #333;
+}
+
+.mission-vision-grid div {
+  background: linear-gradient(135deg, #353434, white);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision-grid div:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.benefit-card {
+  background: linear-gradient(135deg, #353434, white);
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card h3 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.benefit-card p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.cta-section {
+  text-align: center;
+  background: linear-gradient(135deg, #353434, white);
+  padding: 60px 20px;
+  border-radius: 20px;
+  margin: 50px 40px;
+}
+
+.cta-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+}
+
+.cta-text {
+  margin: 25px 0;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 25px auto;
+  color: #333;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  background: hsl(337, 68%, 56%);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.cta-button:hover {
+  background: hsl(337, 63%, 51%);
+  transform: scale(1.1);
+}
+
+.about-us-section, .benefits-section{
+ padding: 0px 20px;
+}

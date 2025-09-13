@@ -1,0 +1,84 @@
+.parent{
+    width: 98.98vw;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container {
+    padding: 1.5rem 2rem;
+    max-width: 570px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #353434, white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; 
+  }
+  
+  .contact-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contact-description {
+    text-align: center;
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+  
+  input, 
+  textarea {
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), hsla(337, 92%, 30%, 0.3));
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: hsl(337, 68%, 56%);
+    outline: none;
+  }
+  
+  .contact-submit-btn {
+    font-size: 1rem;
+    color: white;
+    background-color: hsl(337, 68%, 56%);
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    margin: 0 auto;
+  }
+  
+  .contact-submit-btn:hover {
+    background-color: hsl(337, 71%, 50%);
+    outline: none;
+  }
+  

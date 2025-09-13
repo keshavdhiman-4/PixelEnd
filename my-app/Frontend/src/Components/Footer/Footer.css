@@ -1,0 +1,133 @@
+/* General Styles */
+footer {
+    background-color: #181a1b; /* Dark gray background */
+    color: white;
+    padding-top: 2.7rem;
+  }
+  
+  .footer2 {
+    background-color: #181a1b; /* Dark gray background */
+    color: white;
+    padding-top: 0.5rem;
+  }
+
+  footer .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    footer .container {
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: left;
+    }
+  }
+  
+  /* Logo and Social Icons */
+  footer .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  footer .social-icons a {
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-icons a:hover {
+    color: hsl(337, 68%, 56%); /* Light blue hover effect */
+  }
+  
+  /* Links Section */
+  footer .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.3rem;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  footer .links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+    width: 100px;
+  }
+  
+  footer .links a:hover {
+    color: hsl(337, 68%, 56%); /* Light blue hover effect */
+  }
+  
+  /* Button Section */
+  footer .button-section {
+    text-align: center;
+  }
+  
+  footer .button-section p {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  footer .button-section button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  footer .button-section .watch-team {
+    background-color: hsl(337, 68%, 56%); /* Green button */
+    color: white;
+  }
+  
+  footer .button-section .watch-team:hover {
+    background-color: hsl(337, 79%, 50%);
+  }
+  
+  footer .button-section .join-community {
+    background-color: #444;
+    color: white;
+    margin-left: 0.5rem;
+  }
+  
+  footer .button-section .join-community:hover {
+    background-color: #333;
+  }
+  
+  /* Bottom Section */
+  footer .bottom-text {
+    margin-top: 2.7rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.75rem;
+    text-align: center;
+    color: #aaa;
+  }
+
+  .logo{
+    margin-left: -10px;
+  }
+
+  .inLogo img{ 
+    height: 60px;
+    width: 46px;
+    margin-top: 8px;
+  }
+
+  .inLogo h1 {
+    font-size:xx-large;
+    font-style: italic;
+  }

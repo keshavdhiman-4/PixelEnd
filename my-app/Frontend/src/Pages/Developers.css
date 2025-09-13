@@ -1,0 +1,85 @@
+.developers-container {
+    text-align: center;
+    padding: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+    margin-top: 80px;
+    margin-bottom: 65px;
+    width: 98%;
+  }
+
+  .dev-title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .developers-grid {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .developer-card {
+    background: linear-gradient(135deg, #353434, white);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 0 10px;
+  }
+
+  .developer-name{
+    cursor: auto;
+  }
+  
+  .developer-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .developer-image {
+    width: 100px;
+    height: 102px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .developer-name {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .developer-role {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    color: #444;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: hsl(337, 68%, 56%);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
